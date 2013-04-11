@@ -6,14 +6,13 @@ h1 { font-size: 3em;}
 h3 {font-size: 1.5em;}
 p {padding: 5px 0;}
 
-.container {width: 900px; background-color: #fff; }
-.container-top {padding: 20px; margin: 20px auto;}
-.container-bottom {padding: 20px; margin: 20px auto;}
+.container {width: 930px; background-color: #fff; padding: 20px; margin: 20px auto;}
+.container-3-column {}
 
 .round-border {border-radius: 10px;}
 
-.right {float: right;width: 560px; clear: both;}
-.left {margin-right: 560px; }
+.right {float: right;width: 590px; clear: both;}
+.left {margin-right: 590px; }
 ul {list-style: none inside;}
 .nav-links {padding-top: 5px; clear: both;}
 .nav-links-list {display: inline; font-style: italic;}
