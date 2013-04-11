@@ -1,7 +1,7 @@
 * {margin: 0; padding: 0; border: 0;}
 
 body{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333;
-	background-image: url(im/pw_maze_black.png);}
+	background-image: url(im/grey_wash_wall.png);}
 h1 { font-size: 3em;}
 h3 {font-size: 1.5em;}
 p {padding: 5px 0;}
@@ -10,7 +10,8 @@ a:visited {text-decoration: underline; color:#333; font-size: 100%; }
 a:hover {text-decoration: underline; color:#333; font-size: 100%;}
 a:active {text-decoration: underline; color:#333; font-size: 100%;}
 
-.container {width: 930px; background-color: #fff; padding: 20px; margin: 20px auto;}
+.container {width: 930px; background-color: #fff; padding: 20px; 
+	margin: 20px auto; border: 1px solid #333; box-shadow: 5px 5px #333}
 .container-3-column {}
 
 .round-border {border-radius: 10px;}
