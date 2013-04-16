@@ -30,7 +30,7 @@ ul {list-style: none inside;}
 .headline {font-weight: bold;}
 
 button {border-radius: 10px; box-shadow: 5px 5px #333;  }
-.button-list {margin: 10px 5px;}
+.alert-list {margin: 10px 5px;}
 .buttons {display: inline; margin: 5px;}
 .large-button {height: 40px; width: auto; padding: 5px 10px; font-size: 1em; font-weight: bold;}
 .small-button {height: 25px; width: auto; padding: 5px; font-size: .75em; font-weight: bold;}
@@ -39,3 +39,5 @@ button {border-radius: 10px; box-shadow: 5px 5px #333;  }
 .warning {background-color: red; }
 .neutral {background-color: yellow;}
 .excellent {background-color: green;}
+
+.koala:hover {position: absolute; }
