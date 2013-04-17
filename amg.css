@@ -40,4 +40,26 @@ button {border-radius: 10px; box-shadow: 5px 5px #333;  }
 .neutral {background-color: yellow;}
 .excellent {background-color: green;}
 
-.koala:hover {position: absolute; }
+.crop {border: 1px solid #333;}
+.tooltip {margin: 5px;
+	border-bottom: 1px dotted #000000;
+  color: #000000; 
+  cursor: help; text-decoration: none;
+  position: relative;}
+ 
+ .tooltip:hover span {
+  position: absolute;
+  left: 175px;
+  top: -100px;
+  z-index: 99;
+  margin-left: 0; 
+  padding: 10px; 
+  background: #333;
+  color: #fff;
+}
+.popup {
+  margin-left: -999px;
+  position: absolute;
+}
+
+ .caption {margin: 5px 0 0 5px;}
