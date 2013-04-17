@@ -12,7 +12,7 @@ a:active {text-decoration: underline; color:#333; font-size: 100%;}
 
 .container {width: 930px; background-color: #fff; padding: 20px; 
 	margin: 20px auto; border: 1px solid #333; box-shadow: 5px 5px #333}
-.container-3-column {}
+.container-3-column {;}
 
 .round-border {border-radius: 10px;}
 
