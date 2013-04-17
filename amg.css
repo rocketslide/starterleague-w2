@@ -47,11 +47,18 @@ button {border-radius: 10px; box-shadow: 5px 5px #333;  }
 .excellent {background-color: green;}
 
 .crop {border: 1px solid #333;}
+
+.tooltips {width: 700px;
+border: 5px solid red;
+overflow: auto;}
+
 .tooltip {margin: 5px;
 	border-bottom: 1px dotted #000000;
   color: #000000; 
   cursor: help; text-decoration: none;
-  position: relative;}
+  position: relative;
+	width: 152px;
+	float: left;}
  
  .tooltip:hover span {
   position: absolute;
@@ -64,7 +71,7 @@ button {border-radius: 10px; box-shadow: 5px 5px #333;  }
   color: #fff;
 }
 .popup {
-  margin-left: -999px;
+  margin-left: -9999px;
   position: absolute;
 }
 
