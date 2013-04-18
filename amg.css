@@ -46,19 +46,31 @@ button {border-radius: 10px; box-shadow: 5px 5px #333;  }
 .neutral {background-color: yellow;}
 .excellent {background-color: green;}
 
+
+
+
 .crop {border: 1px solid #333;}
 
-.tooltips {width: 700px;
-border: 5px solid red;
-overflow: auto;}
+.tooltips {;
+}
+
+.tooltips:before,
+.tooltips:after {
+  content: "";
+  display: table;
+}
+
+.tooltops:after {
+  clear: both;
+}
 
 .tooltip {margin: 5px;
 	border-bottom: 1px dotted #000000;
   color: #000000; 
-  cursor: help; text-decoration: none;
+  text-decoration: none;
   position: relative;
 	width: 152px;
-	float: left;}
+	}
  
  .tooltip:hover span {
   position: absolute;
